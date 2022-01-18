@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Consolas';
+    src: URL('Consolas.ttf') format('truetype');
+  }
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Consolas';
+    font-size: 20px;
+    cursor:default;
+}
+#console{
+    padding:15px;
+}
+#ciktilar{
+    top: 0;
+}#komut{
+    background-color: transparent;
+    border: 0px;
+    color:white;
+    width: calc(100% - 50px);
+    font-size: 20px;
+    font-family: 'Consolas';
+    
+}
+
+#komut:focus{
+    outline: none;
+}
+::selection {
+    color: black;
+    background: white;
+  }
